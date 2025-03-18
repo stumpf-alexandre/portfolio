@@ -9,3 +9,8 @@
     height: 180px;
     border-radius: 50%;
 }
+
+.header .title {
+    font-family: 'Neue Machina';
+    text-align: center;
+}
