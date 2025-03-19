@@ -44,6 +44,7 @@ main::after {
     transform: rotate(180deg);
 }
 
+//media query
 @media only screen and (min-width: 768px) {
     main {
         max-width: 1024px;
