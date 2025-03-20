@@ -1,0 +1,53 @@
+.languages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.languages li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.5rem;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.languages li::before {
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.7rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.languages .por::before {
+    background-image: url('../icons/por.svg');
+}
+
+.languages .ing::before {
+    background-image: url('../icons/ing.svg');
+}
+
+.languages .esp::before {
+    background-image: url('../icons/esp.svg');
+}
+
+/*media query*/
+@media only screen and (max-width: 425px) {
+    .languages li {
+        padding: 0.6rem;
+    }
+    .languages li::before {
+        width: 1rem;
+        height: 1rem;
+        margin-right:0.4rem;
+    }
+}
