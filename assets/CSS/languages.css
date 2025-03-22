@@ -13,6 +13,7 @@
     flex-direction: row;
     align-items: center;
     padding: 0 2.5rem 0 0;
+    margin: 1rem 0;
     font-weight: 700;
     font-size: 1.25rem;
 }
@@ -47,7 +48,7 @@
         align-items: flex-start;
     }
     .languages li {
-        padding: 0 0 2rem 0;
+        padding: 0;
     }
 
     .languages li::before {

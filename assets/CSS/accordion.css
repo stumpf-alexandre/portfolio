@@ -19,12 +19,17 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.4rem;
     font-weight: 700;
     padding: 1rem 2rem;
     background-color: transparent;
     color: #fff;
     border: none;
+}
+
+.accordion .trigger h2 {
+    margin: 0;
+    font-size: 1.4rem;
+    text-align: start;
 }
 
 .accordion .trigger:hover {
@@ -62,7 +67,12 @@
 
 /*media query*/
 @media only screen and (max-width: 320px) {
-    .accordion .trigger {
+    .accordion .trigger h2{
         font-size: 1.25rem;
+    }
+
+    .accordion .trigger::after {
+        width: 1.25rem;
+        height: 1.25rem;
     }
 }
