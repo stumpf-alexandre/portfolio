@@ -35,15 +35,6 @@
     background-image: url('../icons/github.svg');
 }
 
-.projects li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.projects li a:hover {
-    text-decoration: underline;
-}
-
 /*media query*/
 @media only screen and (max-width: 320px) {
     .projects li .title {

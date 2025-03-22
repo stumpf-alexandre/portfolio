@@ -44,6 +44,15 @@ main::after {
     transform: rotate(180deg);
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 //media query
 @media only screen and (min-width: 768px) {
     main {
