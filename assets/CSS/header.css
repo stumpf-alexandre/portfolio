@@ -27,7 +27,7 @@
     flex-direction: row;
     align-items: center;
     margin: .5rem;
-    font-size: 1.125rem;
+    font-size: 1.4rem;
 }
 
 .information p::before {
@@ -79,5 +79,12 @@
 
     .header .information {
         grid-area: information;
+    }
+}
+
+/*media query*/
+@media only screen and (max-width: 320px) {
+    .information p {
+        font-size: 1.25rem;
     }
 }
