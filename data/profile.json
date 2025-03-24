@@ -1,0 +1,133 @@
+{
+  "name": "Alexandre Luís Stumpf",
+  "photo": "https://avatars.githubusercontent.com/u/16006888?u=58c69be463a60a18afcc191909bb162c2605de3b&v=4",
+  "job": "Junior Developer",
+  "location": "Torres - RS",
+  "phone": "(51) 98030-7155",
+  "email": "als.stumpf@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "Nodejs",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+      },
+      {
+        "name": "Java",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+      },
+      {
+        "name": "Angular",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+      },
+      {
+        "name": "React",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+      },
+      {
+        "name": "Mongodb",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+      },
+      {
+        "name": "Postgresql",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+      }
+    ],
+    "softSkills": [
+      "Liderança",
+      "Trabalho em equipe",
+      "Facilidade de comunicação",
+      "Proativo",
+      "Organização",
+      "Inovador",
+      "Trabalho com metas",
+      "Flexibilidade",
+      "Mente aberta"
+    ]
+  },
+  "languages": [
+    "Português - Fluente",
+    "Inglês - Básico",
+    "Espanhol - Básico"
+  ],
+  "portfolio": [
+    {
+      "name": "Front-end Mundo Invertido",
+      "urlGit": "https://github.com/stumpf-alexandre/MundoInvertido",
+      "urlSite": "https://stumpf-alexandre.github.io/MundoInvertido/",
+      "description": "Criando uma página em HTML, CSS e JavaScript, com manipulação da DOM e som na mesma.",
+      "github": true
+    },
+    {
+      "name": "Calculadora feita em React JS",
+      "url": "https://github.com/stumpf-alexandre/projetos_dio/tree/main/OrangeTec/calculadora-react",
+      "description": "Criando uma calculadora simples com react JS.",
+      "github": true
+    },
+    {
+      "name": "Pokedex",
+      "urlGit": "https://github.com/stumpf-alexandre/pokedex",
+      "urlSite": "https://stumpf-alexandre.github.io/pokedex/",
+      "description": "Criando uma página em HTML, CSS e JavaScript, com o consumo de uma web API.",
+      "github": true
+    },
+    {
+      "name": "X-Men",
+      "urlGit": "https://github.com/stumpf-alexandre/x-men",
+      "urlSite": "https://stumpf-alexandre.github.io/x-men/",
+      "description": "Criando página com HTML, CSS e responsividade.",
+      "github": true
+    },
+    {
+      "name": "Previsão do tempo",
+      "urlGit": "https://github.com/stumpf-alexandre/previsaoDoTempo",
+      "urlSite": "https://stumpf-alexandre.github.io/previsaoDoTempo/",
+      "description": "Criando uma página em HTML e CSS para pesquisa da previsão do tempo, consumindo uma web API.",
+      "github": true
+    },
+    {
+      "name": "Multiverso Spider-man",
+      "urlGit": "https://github.com/stumpf-alexandre/multiversoSpiderMan",
+      "urlSite": "https://stumpf-alexandre.github.io/multiversoSpiderMan/",
+      "description": "Criando uma página em HTML, CSS e JavaScript, do multiverso Spider-man e manipulando com os principais efeitos e animações do CSS.",
+      "github": true
+    },
+    {
+      "name": "Simulador de piano",
+      "urlGit": "https://github.com/stumpf-alexandre/simuladorPiano",
+      "urlSite": "https://stumpf-alexandre.github.io/simuladorPiano/",
+      "description": "Criando um simulador de piano com HTML, CSS e Javascript, que reproduz som aumenta e diminui o volume e altera seu layout.",
+      "github": true
+    },
+    {
+      "name": "Jogo de Cartas Yu-Gi-Oh | Jo-ken-po",
+      "urlGit": "https://github.com/stumpf-alexandre/jogoDeCartas",
+      "urlSite": "https://stumpf-alexandre.github.io/jogoDeCartas/",
+      "description": "Criando um jogo de cartas no estilo Jo-ken-po mas com cartas do classico jogo Yu-Gi-Oh.",
+      "github": true
+    },
+    {
+      "name": "Jogo da Memória",
+      "urlGit": "https://github.com/stumpf-alexandre/jogoDaMemoria",
+      "urlSite": "https://stumpf-alexandre.github.io/jogoDaMemoria/",
+      "description": "Criando um jogo de memória com emojis, utilizando HTML, CSS e Javascript.",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Arquiteto de software / S3 BANK",
+      "period": "2022 - até o momento",
+      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+    },
+    {
+      "name": "Software Engineering Lead / DIO",
+      "period": "2021 - 2022",
+      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+    },
+    {
+      "name": "CEO / Brain Machine",
+      "period": "2016 - 2021",
+      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+    }
+  ]
+}
