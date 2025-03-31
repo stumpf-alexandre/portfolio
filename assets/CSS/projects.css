@@ -15,7 +15,7 @@
     margin: 1rem 0;
 }
 
-.projects li .title {
+.projects li h3 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -24,7 +24,25 @@
     font-weight: 700;
 }
 
-.projects li .title.github::before {
+.projects li a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .5rem 0;
+    font-size: 1rem;
+
+    .languages li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 2.5rem 0 0;
+        margin: 1rem 0;
+        font-weight: 700;
+        font-size: 1.25rem;
+    }
+}
+
+.projects li a.github::before {
     content: '';
     display: inline-block;
     width: 1.5rem;
@@ -35,9 +53,22 @@
     background-image: url('../icons/github.svg');
 }
 
+.projects li a.githubPage::before {
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.7rem;
+    border-radius: 50%;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../icons/page.svg');
+}
+
 /*media query*/
 @media only screen and (max-width: 320px) {
-    .projects li .title {
+    .projects li h3 {
         font-size: 1.1rem;
     }
 }

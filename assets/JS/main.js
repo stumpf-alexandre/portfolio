@@ -42,6 +42,18 @@ function updateLanguages(profileData) {
     languages.innerHTML = profileData.languages.map(language => `<li class="${language.class}">${language.name}</li>`).join('')
 }
 
+function updateProjects(profileData) {
+    const projects = document.getElementById('profile.projects')
+    projects.innerHTML = profileData.projects.map(project => {
+        return `<li>
+                    <h3>${project.name}</h3>
+                    ${project.github ? '<a class="github" href="' + project.urlGit + '" target="_blank">' + project.urlGit + '</a>' : ''}
+                    ${project.githubPage ? '<a class="githubPage" href="' + project.urlPage + '" target="_blank">' + project.urlPage + '</a>' : ''}
+                    ${project.github ? '<p>' + project.description + '</p>' : ''}
+                </li>`
+    }).join('')
+}
+
 (async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)

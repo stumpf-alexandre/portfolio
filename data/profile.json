@@ -68,68 +68,76 @@
       "class": "esp"
     }
   ],
-  "portfolio": [
+  "projects": [
     {
       "name": "Front-end Mundo Invertido",
       "urlGit": "https://github.com/stumpf-alexandre/MundoInvertido",
-      "urlSite": "https://stumpf-alexandre.github.io/MundoInvertido/",
+      "urlPage": "https://stumpf-alexandre.github.io/MundoInvertido/",
       "description": "Criando uma página em HTML, CSS e JavaScript, com manipulação da DOM e som na mesma.",
-      "github": true
+      "github": true,
+      "githubPage": true
     },
     {
       "name": "Calculadora feita em React JS",
-      "url": "https://github.com/stumpf-alexandre/projetos_dio/tree/main/OrangeTec/calculadora-react",
+      "urlGit": "https://github.com/stumpf-alexandre/projetos_dio/tree/main/OrangeTec/calculadora-react",
       "description": "Criando uma calculadora simples com react JS.",
       "github": true
     },
     {
       "name": "Pokedex",
       "urlGit": "https://github.com/stumpf-alexandre/pokedex",
-      "urlSite": "https://stumpf-alexandre.github.io/pokedex/",
+      "urlPage": "https://stumpf-alexandre.github.io/pokedex/",
       "description": "Criando uma página em HTML, CSS e JavaScript, com o consumo de uma web API.",
-      "github": true
+      "github": true,
+      "githubPage": true
     },
     {
       "name": "X-Men",
       "urlGit": "https://github.com/stumpf-alexandre/x-men",
-      "urlSite": "https://stumpf-alexandre.github.io/x-men/",
+      "urlPage": "https://stumpf-alexandre.github.io/x-men/",
       "description": "Criando página com HTML, CSS e responsividade.",
-      "github": true
+      "github": true,
+      "githubPage": true
     },
     {
       "name": "Previsão do tempo",
       "urlGit": "https://github.com/stumpf-alexandre/previsaoDoTempo",
-      "urlSite": "https://stumpf-alexandre.github.io/previsaoDoTempo/",
+      "urlPage": "https://stumpf-alexandre.github.io/previsaoDoTempo/",
       "description": "Criando uma página em HTML e CSS para pesquisa da previsão do tempo, consumindo uma web API.",
-      "github": true
+      "github": true,
+      "githubPage": true
     },
     {
       "name": "Multiverso Spider-man",
       "urlGit": "https://github.com/stumpf-alexandre/multiversoSpiderMan",
-      "urlSite": "https://stumpf-alexandre.github.io/multiversoSpiderMan/",
+      "urlPage": "https://stumpf-alexandre.github.io/multiversoSpiderMan/",
       "description": "Criando uma página em HTML, CSS e JavaScript, do multiverso Spider-man e manipulando com os principais efeitos e animações do CSS.",
-      "github": true
+      "github": true,
+      "githubPage": true
     },
     {
       "name": "Simulador de piano",
       "urlGit": "https://github.com/stumpf-alexandre/simuladorPiano",
-      "urlSite": "https://stumpf-alexandre.github.io/simuladorPiano/",
+      "urlPage": "https://stumpf-alexandre.github.io/simuladorPiano/",
       "description": "Criando um simulador de piano com HTML, CSS e Javascript, que reproduz som aumenta e diminui o volume e altera seu layout.",
-      "github": true
+      "github": true,
+      "githubPage": true
     },
     {
       "name": "Jogo de Cartas Yu-Gi-Oh | Jo-ken-po",
       "urlGit": "https://github.com/stumpf-alexandre/jogoDeCartas",
-      "urlSite": "https://stumpf-alexandre.github.io/jogoDeCartas/",
+      "urlPage": "https://stumpf-alexandre.github.io/jogoDeCartas/",
       "description": "Criando um jogo de cartas no estilo Jo-ken-po mas com cartas do classico jogo Yu-Gi-Oh.",
-      "github": true
+      "github": true,
+      "githubPage": true
     },
     {
       "name": "Jogo da Memória",
       "urlGit": "https://github.com/stumpf-alexandre/jogoDaMemoria",
-      "urlSite": "https://stumpf-alexandre.github.io/jogoDaMemoria/",
+      "urlPage": "https://stumpf-alexandre.github.io/jogoDaMemoria/",
       "description": "Criando um jogo de memória com emojis, utilizando HTML, CSS e Javascript.",
-      "github": true
+      "github": true,
+      "githubPage": true
     }
   ],
   "professionalExperience": [
