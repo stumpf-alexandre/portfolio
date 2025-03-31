@@ -16,6 +16,7 @@
 
 .skills .tools ul li img {
     max-width: 50px;
+    max-height: 50px;
     margin: 0 .5rem;
 }
 
@@ -35,6 +36,12 @@
 }
 
 /*media query*/
+@media only screen and (max-width: 1025px) {
+    .skills .tools ul li img {
+        padding: 0 0 1rem 0;
+    }
+}
+
 @media only screen and (min-width: 768px) {
     .skills {
         display: grid;
@@ -48,7 +55,7 @@
     }
 
     .skills .tools ul li img {
-        margin: 0 1.5rem;
+        margin: 0 1.8rem;
     }
 
     .skills .personal ul {
@@ -62,6 +69,6 @@
 
     .skills .personal ul li {
         margin-left: ;
-        padding: 0;
+        padding: 0 0 1rem 0;
     }
 }

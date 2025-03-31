@@ -36,6 +36,10 @@
       {
         "name": "Android",
         "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/android.png"
+      },
+      {
+        "name": "Github",
+        "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/github.png"
       }
     ],
     "softSkills": [
