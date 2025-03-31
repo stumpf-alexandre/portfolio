@@ -60,10 +60,9 @@
     height: 1.5rem;
     margin-right: 0.7rem;
     border-radius: 50%;
-    background-color: #fff;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('../icons/page.svg');
+    background-image: url('../icons/globo.svg');
 }
 
 /*media query*/
