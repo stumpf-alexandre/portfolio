@@ -60,4 +60,5 @@ function updateProjects(profileData) {
     updateHardSkills(profileData)
     updateSoftSkills(profileData)
     updateLanguages(profileData)
+    updateProjects(profileData)
 })()
