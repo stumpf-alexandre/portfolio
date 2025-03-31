@@ -57,15 +57,15 @@
   "languages": [
     {
       "name": "Português - Fluente",
-      "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/por.svg"
+      "class": "por"
     },
     {
       "name": "Inglês - Básico",
-      "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/ing.svg"
+      "class": "ing"
     },
     {
       "name": "Espanhol - Básico",
-      "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/esp.svg"
+      "class": "esp"
     }
   ],
   "portfolio": [
