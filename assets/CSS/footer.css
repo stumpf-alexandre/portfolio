@@ -9,11 +9,10 @@ footer .footer {
     justify-content: center;
     flex-wrap: wrap;
     gap: 2.5rem;
+    padding: 1rem 0 1rem 0;
 }
 
 footer .footer li {
-    width: 2rem;
-    height: 2rem;
     list-style: none;
 }
 
@@ -25,4 +24,5 @@ footer .footer li a img {
 footer p {
     display: flex;
     justify-content: center;
+    padding: 0 0 1rem 0;
 }
