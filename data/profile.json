@@ -166,5 +166,19 @@
       "period": "set de 2008 - jan de 2014",
       "description": "Comunicação · Liderança de equipe · Resolução de problemas · Habilidades analíticas · Trabalho em equipe · Capacidade de organização."
     }
+  ],
+  "footers": [
+    {
+      "name": "linkedin",
+      "src": "https://www.linkedin.com/in/alexandrestumpf22/"
+    },
+    {
+      "name": "facebook",
+      "src": "https://www.facebook.com/alexandrestumpf22/"
+    },
+    {
+      "name": "instagram",
+      "src": "https://www.instagram.com/alexandrestumpf22/"
+    }
   ]
 }

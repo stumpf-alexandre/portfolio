@@ -82,7 +82,6 @@
     }
 }
 
-/*media query*/
 @media only screen and (max-width: 320px) {
     .information p {
         font-size: 1.25rem;

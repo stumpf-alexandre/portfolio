@@ -1,0 +1,28 @@
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+footer .footer li {
+    width: 2rem;
+    height: 2rem;
+    list-style: none;
+}
+
+footer .footer li a img {
+    width: 2rem;
+    height: 2rem;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+}

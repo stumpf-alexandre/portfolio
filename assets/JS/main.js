@@ -50,7 +50,33 @@ function updateProjects(profileData) {
                     ${project.github ? '<a class="github" href="' + project.urlGit + '" target="_blank">Visitar Código</a>' : ''}
                     ${project.githubPage ? '<a class="githubPage" href="' + project.urlPage + '" target="_blank">Visitar Site</a>' : ''}
                     ${project.github ? '<p>' + project.description + '</p>' : ''}
-                </li>`
+                </li>
+                `
+    }).join('')
+}
+
+function updateProfessionalExperience(profileData) {
+    const professionalExperience = document.getElementById('profile.professionalExperience')
+    professionalExperience.innerHTML = profileData.professionalExperience.map(experience => {
+        return `<li>
+                    <h3 class="title">${experience.name}</h3>
+                    <p class="period">${experience.period}</p>
+                    <p class="description">${experience.description}</p>
+                </li>
+                `
+    }).join('')
+}
+
+function updateFooter(profileData) {
+    const footers = document.getElementById('profile.footer')
+    footers.innerHTML = profileData.footers.map(footer => {
+        return `
+                <li class="${footer.name}">
+                    <a href="${footer.src}" target="_blank">
+                        <img src="./assets/icons/${footer.name}.svg" alt="Icone do ${footer.name}"  title="${footer.name}">
+                    </a>
+                </li>
+                `
     }).join('')
 }
 
@@ -61,4 +87,6 @@ function updateProjects(profileData) {
     updateSoftSkills(profileData)
     updateLanguages(profileData)
     updateProjects(profileData)
+    updateProfessionalExperience(profileData)
+    updateFooter(profileData)
 })()
