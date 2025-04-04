@@ -7,6 +7,7 @@ footer .footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 2.5rem;
     padding: 1rem 0 1rem 0;
@@ -19,6 +20,11 @@ footer .footer li {
 footer .footer li a img {
     width: 2rem;
     height: 2rem;
+}
+
+footer .footer li a img.dio {
+    width: 4.5rem;
+    height: 4.5rem;
 }
 
 footer p {

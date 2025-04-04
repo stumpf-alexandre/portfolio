@@ -73,7 +73,7 @@ function updateFooter(profileData) {
         return `
                 <li class="${footer.name}">
                     <a href="${footer.src}" target="_blank">
-                        <img src="./assets/icons/${footer.name}.svg" alt="Icone do ${footer.name}"  title="${footer.name}">
+                        <img class="${footer.name}" src="./assets/icons/${footer.name}.svg" alt="Icone do ${footer.name}"  title="${footer.name}">
                     </a>
                 </li>
                 `
