@@ -13,16 +13,16 @@ footer .footer {
     padding: 1rem 0 1rem 0;
 }
 
-footer .footer li {
+footer .footer .listFooter {
     list-style: none;
 }
 
-footer .footer li a img {
+footer .footer .listFooter a img {
     width: 2rem;
     height: 2rem;
 }
 
-footer .footer li a img.dio {
+footer .footer .listFooter a img.dio {
     width: 4.5rem;
     height: 4.5rem;
 }

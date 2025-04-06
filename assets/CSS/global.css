@@ -61,6 +61,51 @@ a:hover {
     text-decoration: underline;
 }
 
+.loader {
+    display: inline-block;
+    outline: 0.5rem solid transparent;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.loader .span-loader {
+    background: #fff;
+    border-radius: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    width: .5rem;
+    height: .5rem;
+    margin: 1px 1px;
+    -webkit-animation:loader 0.8s linear infinite alternate;
+    animation:loader 0.8s linear infinite alternate;
+}
+
+.loader .span-loader:nth-child(1) {
+    -webkit-animation-delay:-0.8;
+    animation-delay:-0.8s;
+   }
+
+.loader .span-loader:nth-child(2) {
+    -webkit-animation-delay:-0.53333s;
+    animation-delay:-0.53333s;
+}
+
+.loader .span-loader:nth-child(3) {
+    -webkit-animation-delay:-0.26666s;
+    animation-delay:-0.26666s;
+}
+
+@keyframes loader{
+    from {transform: scale(0, 0);}
+    to {transform: scale(1, 1);}
+}
+
+@-webkit-keyframes loader{
+    from {-webkit-transform: scale(0, 0);}
+    to {-webkit-transform: scale(1, 1);}
+}
+
 //media query
 @media only screen and (min-width: 768px) {
     main {

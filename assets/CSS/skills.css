@@ -14,7 +14,7 @@
     list-style: none;
 }
 
-.skills .tools ul li img {
+.skills .tools ul .listHardSkills img {
     max-width: 50px;
     max-height: 50px;
     margin: 0 .5rem;
@@ -30,14 +30,14 @@
     padding: 0;
 }
 
-.skills .personal ul li {
+.skills .personal ul .listSoftSkills {
     margin-left: 2rem;
     padding: .5rem;
 }
 
 /*media query*/
 @media only screen and (max-width: 1025px) {
-    .skills .tools ul li img {
+    .skills .tools ul .listHardSkills img {
         padding: 0 0 1rem 0;
     }
 }
@@ -54,7 +54,7 @@
         justify-content: center;
     }
 
-    .skills .tools ul li img {
+    .skills .tools ul .listHardSkills img {
         margin: 0 1.8rem;
     }
 
@@ -67,7 +67,7 @@
         padding: 0;
     }
 
-    .skills .personal ul li {
+    .skills .personal ul .listSoftSkills {
         margin-left: ;
         padding: 0 0 1rem 0;
     }

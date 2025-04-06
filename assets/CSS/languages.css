@@ -8,7 +8,7 @@
     list-style: none;
 }
 
-.languages li {
+.languages .listLanguage {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -18,7 +18,7 @@
     font-size: 1.25rem;
 }
 
-.languages li::before {
+.languages .listLanguage::before {
     content: '';
     display: inline-block;
     width: 1.5rem;
@@ -47,18 +47,18 @@
         flex-direction: column;
         align-items: flex-start;
     }
-    .languages li {
+    .languages .listLanguage {
         padding: 0;
     }
 
-    .languages li::before {
+    .languages .listLanguage::before {
         width: 1.2rem;
         height: 1.2rem;
     }
 }
 
 @media only screen and (max-width: 320px) {
-    .languages li {
+    .languages .listLanguage {
         font-size: 1.1rem;
     }
 }

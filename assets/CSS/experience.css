@@ -7,16 +7,16 @@
     list-style: none;
 }
 
-.experience li {
+.experience .listProfessionalExperience {
     margin-bottom: 1rem;
 }
 
-.experience li .period {
+.experience .listProfessionalExperience .period {
     display: flex;
     flex-direction: row;
 }
 
-.experience li .period::before {
+.experience .listProfessionalExperience .period::before {
     content: '';
     display: inline-block;
     width: 1.5rem;
@@ -27,6 +27,6 @@
     background-image: url('../icons/calendar.svg');
 }
 
-.experience li .description {
+.experience .listProfessionalExperience .description {
     padding: "0 1rem"
 }
