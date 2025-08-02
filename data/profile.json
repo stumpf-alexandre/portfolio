@@ -11,52 +11,64 @@
   "skills": {
     "hardSkills": [
       {
+        "type": "Front-end",
         "name": "HTML 5",
         "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/html.png"
       },
       {
+        "type": "Front-end",
         "name": "CSS 3",
         "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/css.png"
       },
       {
+        "type": "Front-end",
         "name": "JavaScript",
         "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/js.png"
       },
       {
+        "type": "Front-end",
         "name": "React",
         "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/react.png"
       },
       {
+        "type": "Back-end",
         "name": "PHP",
         "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/php.png"
       },
       {
+        "type": "Back-end",
         "name": "Java",
         "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/java.png"
       },
       {
+        "type": "Banco de Dados",
         "name": "My SQL",
         "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/mysql.png"
       },
       {
+        "type": "Banco de Dados",
         "name": "No SQL",
         "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/nosql.png"
       },
       {
+        "type": "Mobile & Cross-platform",
         "name": "Android",
         "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/android.png"
       },
       {
+        "type": "Mobile & Cross-platform",
         "name": "Flutter",
         "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/flutter.png"
       },
       {
+        "type": "Versionamento",
         "name": "Github",
         "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/github.png"
       },
       {
+        "type": "Metodologias Ágeis",
         "name": "Scrum",
-        "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/scrum.png"
+        "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/scrum.jpg"
       }
     ],
     "softSkills": [
