@@ -22,6 +22,16 @@
       },
       {
         "type": "Front-end",
+        "name": "Bootstrap",
+        "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/bootstrap.png"
+      },
+      {
+        "type": "Front-end",
+        "name": "Tailwind",
+        "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/tailwind.png"
+      },
+      {
+        "type": "Front-end",
         "name": "JavaScript",
         "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/js.png"
       },
@@ -41,16 +51,6 @@
         "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/java.png"
       },
       {
-        "type": "Banco de Dados",
-        "name": "My SQL",
-        "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/mysql.png"
-      },
-      {
-        "type": "Banco de Dados",
-        "name": "No SQL",
-        "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/nosql.png"
-      },
-      {
         "type": "Mobile & Cross-platform",
         "name": "Android",
         "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/android.png"
@@ -59,6 +59,16 @@
         "type": "Mobile & Cross-platform",
         "name": "Flutter",
         "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/flutter.png"
+      },
+      {
+        "type": "Banco de Dados",
+        "name": "My SQL",
+        "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/mysql.png"
+      },
+      {
+        "type": "Banco de Dados",
+        "name": "No SQL",
+        "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/nosql.png"
       },
       {
         "type": "Versionamento",
