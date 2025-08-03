@@ -27,11 +27,6 @@ function updateProfileInfo(profileData) {
   email.target = '_blank';
 }
 
-function updateTypeHardSkills(profileData) {
-  const typeHardSkills = document.getElementById('profile.skills.typeHardSkills');
-  typeHardSkills.innerHTML = profileData.skills.hardSkills.front-end.map((skill) => `<h4 class="listHardSkills">Front-end</h4>`).join('');
-}
-
 function updateHardSkills(profileData) {
   const hardSkills = document.getElementById('profile.skills.hardSkills');
   hardSkills.innerHTML = profileData.skills.hardSkills.map((skill) => `<li class="listHardSkills"><img src="${skill.logo}" alt="Imagem do ${skill.name}" title="${skill.name}"></li>`).join('');
@@ -118,7 +113,6 @@ function updateFooter(profileData) {
 (async () => {
   const profileData = await fetchProfileData();
   updateProfileInfo(profileData);
-  updateTypeHardSkills(profileData);
   updateHardSkills(profileData);
   updateSoftSkills(profileData);
   updateLanguages(profileData);
