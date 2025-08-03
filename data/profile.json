@@ -11,74 +11,88 @@
   "skills": {
     "hardSkills": [
       {
-        "type": "Front-end",
-        "name": "HTML 5",
-        "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/html.png"
-      },
-      {
-        "type": "Front-end",
-        "name": "CSS 3",
-        "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/css.png"
-      },
-      {
-        "type": "Front-end",
-        "name": "Bootstrap",
-        "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/bootstrap.png"
-      },
-      {
-        "type": "Front-end",
-        "name": "Tailwind",
-        "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/tailwind.png"
-      },
-      {
-        "type": "Front-end",
-        "name": "JavaScript",
-        "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/js.png"
-      },
-      {
-        "type": "Front-end",
-        "name": "React",
-        "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/react.png"
-      },
-      {
-        "type": "Back-end",
-        "name": "PHP",
-        "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/php.png"
-      },
-      {
-        "type": "Back-end",
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/java.png"
-      },
-      {
-        "type": "Mobile & Cross-platform",
-        "name": "Android",
-        "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/android.png"
-      },
-      {
-        "type": "Mobile & Cross-platform",
-        "name": "Flutter",
-        "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/flutter.png"
-      },
-      {
-        "type": "Banco de Dados",
-        "name": "My SQL",
-        "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/mysql.png"
-      },
-      {
-        "type": "Banco de Dados",
-        "name": "No SQL",
-        "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/nosql.png"
-      },
-      {
-        "type": "Versionamento",
-        "name": "Github",
-        "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/github.png"
-      },
-      {
-        "type": "Metodologias Ágeis",
-        "name": "Scrum",
-        "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/scrum.jpg"
+        "front-end": [
+          {
+            "type": "Front-end",
+            "name": "HTML 5",
+            "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/html.png"
+          },
+          {
+            "type": "Front-end",
+            "name": "CSS 3",
+            "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/css.png"
+          },
+          {
+            "type": "Front-end",
+            "name": "Bootstrap",
+            "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/bootstrap.png"
+          },
+          {
+            "type": "Front-end",
+            "name": "Tailwind",
+            "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/tailwind.png"
+          },
+          {
+            "type": "Front-end",
+            "name": "JavaScript",
+            "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/js.png"
+          },
+          {
+            "type": "Front-end",
+            "name": "React",
+            "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/react.png"
+          }
+        ],
+        "back-end": [
+          {
+            "type": "Back-end",
+            "name": "PHP",
+            "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/php.png"
+          },
+          {
+            "type": "Back-end",
+            "name": "Java",
+            "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/java.png"
+          }
+        ],
+        "mobile-cross-platform": [
+          {
+            "type": "Mobile & Cross-Platform",
+            "name": "Android",
+            "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/android.png"
+          },
+          {
+            "type": "Mobile & Cross-Platform",
+            "name": "Flutter",
+            "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/flutter.png"
+          }
+        ],
+        "banco-de-dados": [
+          {
+            "type": "Banco de Dados",
+            "name": "My SQL",
+            "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/mysql.png"
+          },
+          {
+            "type": "Banco de Dados",
+            "name": "No SQL",
+            "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/nosql.png"
+          }
+        ],
+        "versionamento": [
+          {
+            "type": "Versionamento",
+            "name": "Github",
+            "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/github.png"
+          }
+        ],
+        "metodologia-agel": [
+          {
+            "type": "Metodologia Ágil",
+            "name": "Scrum",
+            "logo": "https://raw.githubusercontent.com/stumpf-alexandre/portfolio/refs/heads/main/data/imgs/scrum.jpg"
+          }
+        ]
       }
     ],
     "softSkills": [
