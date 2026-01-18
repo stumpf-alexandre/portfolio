@@ -7,7 +7,7 @@
   "phone": "5551980307155",
   "email": "als.stumpf@gmail.com",
   "pin": "https://maps.app.goo.gl/LMBQNgHMYp5G1CPL6",
-  "linkedin": "https://www.linkedin.com/in/alexandrestumpf22/",
+  "linkedin": "https://www.linkedin.com/in/alexandrestumpfdeveloper/",
   "skills": {
     "hardSkills": [
       {
@@ -195,15 +195,19 @@
   "footers": [
     {
       "name": "linkedin",
-      "src": "https://www.linkedin.com/in/alexandrestumpf22/"
+      "src": "https://www.linkedin.com/in/alexandrestumpfdeveloper/"
+    },
+    {
+      "name": "telegram",
+      "src": "https://t.me/alexandrestumpfdeveloper"
     },
     {
       "name": "facebook",
-      "src": "https://www.facebook.com/alexandrestumpf22/"
+      "src": "https://www.facebook.com/alexandrestumpfdeveloper/"
     },
     {
       "name": "instagram",
-      "src": "https://www.instagram.com/alexandrestumpf22/"
+      "src": "https://www.instagram.com/alexandrestumpfdeveloper/"
     },
     {
       "name": "github",
