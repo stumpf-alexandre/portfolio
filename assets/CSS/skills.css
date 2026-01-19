@@ -23,12 +23,12 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
-  list-style-type: circle;
 }
 
 .skills .personal ul .listSoftSkills {
   margin-left: 2rem;
   padding: 0.5rem;
+  list-style-type: disc;
 }
 
 /*media query*/
